@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "version": "1.2.0",
+  "minimum_bootstrap": "1.2.0",
+  "data_format": "sqlite-v1-accounts-v2",
+  "runtime": "electron45-python313-win-x64",
+  "notes": [
+    "Verificação automática de novas versões ao entrar como administrador.",
+    "Download de atualizações pelo próprio programa, com confirmação antes de reiniciar.",
+    "Versões separadas da base, contas e configurações; recuperação da versão anterior em caso de falha na abertura."
+  ],
+  "manifest_sha256": "67349e62d32796d8d7f5e92eca449be1f55cb06d6268d8024335b211defabe1e",
+  "payload": {
+    "name": "cnpj-explorer-update.zip",
+    "size": 82587,
+    "sha256": "340f4f7331ec4e2ed6a03c1ff79633b634990efc4ffd6227946050b32005183b"
+  }
+}
