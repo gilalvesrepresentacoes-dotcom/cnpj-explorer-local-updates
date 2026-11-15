@@ -1,19 +1,18 @@
 {
   "schema": 1,
-  "version": "1.2.2",
+  "version": "1.2.3",
   "minimum_bootstrap": "1.2.0",
   "data_format": "sqlite-v1-accounts-v2",
   "runtime": "electron45-python313-win-x64",
   "notes": [
-    "Percentual visível nas barras da base e do resumo superior.",
-    "Progresso medido pelo volume descompactado lido, incluindo o ZIP atual.",
-    "Indicador animado de processamento e etapas de leitura, gravação e retomada.",
-    "Estados pausado, interrompido, concluído e sem conexão claramente identificados."
+    "Acesso local permanece aberto sem limite de inatividade, inclusive durante e após importações longas.",
+    "Bloqueio manual preservado; senha continua obrigatória ao reabrir o programa.",
+    "Contas bloqueadas e senhas redefinidas continuam revogando sessões anteriores."
   ],
-  "manifest_sha256": "144346589bca5283a56e99e38fa58f6bf7c7bfc3cbeb666470ac8ca24c0ce947",
+  "manifest_sha256": "6144704870bbf078ffba990b95d6f3a053bf4195d87a2e49ab765133abcf3639",
   "payload": {
     "name": "cnpj-explorer-update.zip",
-    "size": 88204,
-    "sha256": "9caa039388adf97f2e54725f5b7eb06405a65a744970dc9f979aab2621876c68"
+    "size": 88303,
+    "sha256": "e95fd145fe001dbd95fac906efe639cc183b945ffb5010f6cbd612ef4ec91667"
   }
 }
