@@ -1,18 +1,18 @@
 {
   "schema": 1,
-  "version": "1.2.8",
+  "version": "1.2.9",
   "minimum_bootstrap": "1.2.0",
   "data_format": "sqlite-v1-accounts-v2",
   "runtime": "electron45-python313-win-x64",
   "notes": [
-    "Cole listas de códigos Receita ou nomes completos de municípios para marcar automaticamente, no processamento e na pesquisa.",
-    "Ignora acentos, cedilha e maiúsculas, evita repetições e informa nomes não encontrados ou ambíguos.",
-    "Pesquisa de referência também ignora acentos; a seleção anterior é preservada ao adicionar uma lista."
+    "Restaura a lista local de CNAEs no processamento ao reabrir o programa, quando já existe uma base com tabelas auxiliares.",
+    "Permite pesquisar e selecionar CNAEs formatados como 9602-5/01 ou sem pontuação, mantendo a lista com caixas de seleção.",
+    "Preserva a atualização pelo aplicativo desktop, com autorização do administrador e sem substituir dados pessoais."
   ],
-  "manifest_sha256": "cd69337b1a550bc654bf539ec926d87d03260c521052ba91c027d3d492063899",
+  "manifest_sha256": "04961f8c1924168fb13c2531e113006522d95eb4070779b589088c27cae6188c",
   "payload": {
     "name": "cnpj-explorer-update.zip",
-    "size": 99483,
-    "sha256": "c6e326704cf4534a39d657f9d96ed1771fdb590000e66ffb85dabfd41a3f0030"
+    "size": 99841,
+    "sha256": "e72f4aad3ca60c151b451e813e863e6b660bf9ead654c3296f3b71c51184944c"
   }
 }
