@@ -1,19 +1,18 @@
 {
   "schema": 1,
-  "version": "1.2.5",
+  "version": "1.2.6",
   "minimum_bootstrap": "1.2.0",
   "data_format": "sqlite-v1-accounts-v2",
   "runtime": "electron45-python313-win-x64",
   "notes": [
-    "Grupos de municípios salvos por conta e pasta, para carregar os mesmos municípios nas próximas pesquisas.",
-    "Selecionar todo o resultado inclui todas as páginas, sem transferir milhares de CNPJs à interface; exportação com o mesmo aviso de duplicidade.",
-    "Resultados e marcações salvos no disco para reabrir sem reexecutar os filtros originais, com refinamento por município e atividade no cabeçalho.",
-    "Tabela com rolagem própria, barra visível e cabeçalhos fixos; listas de municípios selecionados com altura limitada."
+    "Opção Lembrar meu e-mail neste computador na tela de entrada.",
+    "Preenche o e-mail nos próximos acessos, inclusive após fechar e reabrir o programa; nunca guarda a senha nem entra automaticamente.",
+    "Desmarcar a opção remove o e-mail lembrado deste computador."
   ],
-  "manifest_sha256": "c2cc5d476929aea09f7b81d13a6d1eac38a5973b0c3458c204d111cbeb6b5802",
+  "manifest_sha256": "5d8948680c9cb9a0cfc2e5dd9099389e444a1abdad2b14cd6404e1a777c06d1d",
   "payload": {
     "name": "cnpj-explorer-update.zip",
-    "size": 97001,
-    "sha256": "d000e6cf616e20782a5fef0d59f0faf9b9d095b156fcf524b0ef7f6b9f1390ae"
+    "size": 97768,
+    "sha256": "c82608d23d5e36c49c1fc9f8ed42c962173c0c0b1c455665e4fcb1931df5351c"
   }
 }
