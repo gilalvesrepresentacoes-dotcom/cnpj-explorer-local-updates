@@ -1,18 +1,18 @@
 {
   "schema": 1,
-  "version": "1.2.3",
+  "version": "1.2.4",
   "minimum_bootstrap": "1.2.0",
   "data_format": "sqlite-v1-accounts-v2",
   "runtime": "electron45-python313-win-x64",
   "notes": [
-    "Acesso local permanece aberto sem limite de inatividade, inclusive durante e após importações longas.",
-    "Bloqueio manual preservado; senha continua obrigatória ao reabrir o programa.",
-    "Contas bloqueadas e senhas redefinidas continuam revogando sessões anteriores."
+    "Barra de progresso logo abaixo de Aplicar filtros, com percentual das três etapas da consulta.",
+    "Indicador animado e tempo decorrido enquanto a base local é consultada, sem simular empresas analisadas.",
+    "Conclusão com quantidade por página, resultado vazio e falha identificados; novas consultas e bloqueio descartam indicadores antigos."
   ],
-  "manifest_sha256": "6144704870bbf078ffba990b95d6f3a053bf4195d87a2e49ab765133abcf3639",
+  "manifest_sha256": "be99c640a0fd6b4b939ba675968f9a45d6889031167ced5b977e4815e5c32d53",
   "payload": {
     "name": "cnpj-explorer-update.zip",
-    "size": 88303,
-    "sha256": "e95fd145fe001dbd95fac906efe639cc183b945ffb5010f6cbd612ef4ec91667"
+    "size": 90525,
+    "sha256": "2f007f1b8ef7ed4644ff621347db547a85ae22d096733ca529f6dd441deab840"
   }
 }
