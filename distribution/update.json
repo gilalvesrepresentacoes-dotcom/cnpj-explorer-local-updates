@@ -1,18 +1,18 @@
 {
   "schema": 1,
-  "version": "1.2.6",
+  "version": "1.2.7",
   "minimum_bootstrap": "1.2.0",
   "data_format": "sqlite-v1-accounts-v2",
   "runtime": "electron45-python313-win-x64",
   "notes": [
-    "Opção Lembrar meu e-mail neste computador na tela de entrada.",
-    "Preenche o e-mail nos próximos acessos, inclusive após fechar e reabrir o programa; nunca guarda a senha nem entra automaticamente.",
-    "Desmarcar a opção remove o e-mail lembrado deste computador."
+    "Recupera a conexão de inicialização no programa desktop quando o identificador da janela está desatualizado, sem dispensar a senha.",
+    "Botões Mudar unidade / pasta para o banco e os ZIPs, com instruções para preservar a base existente.",
+    "Rejeita arquivos .zip nos campos de pasta e exige nova inspeção após mudar o local dos ZIPs."
   ],
-  "manifest_sha256": "5d8948680c9cb9a0cfc2e5dd9099389e444a1abdad2b14cd6404e1a777c06d1d",
+  "manifest_sha256": "8bcbc5b860bcd8ec6010899dbf2182ab9aa7b7689f5db5cc4a4661283ce4a8de",
   "payload": {
     "name": "cnpj-explorer-update.zip",
-    "size": 97768,
-    "sha256": "c82608d23d5e36c49c1fc9f8ed42c962173c0c0b1c455665e4fcb1931df5351c"
+    "size": 98568,
+    "sha256": "d27f6c0a95861df0ddbd9d738c59672d711cb7ef22c7c2d7c4a83501e9c65404"
   }
 }
