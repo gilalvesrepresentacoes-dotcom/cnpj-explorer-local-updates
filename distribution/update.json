@@ -1,18 +1,19 @@
 {
   "schema": 1,
-  "version": "1.2.4",
+  "version": "1.2.5",
   "minimum_bootstrap": "1.2.0",
   "data_format": "sqlite-v1-accounts-v2",
   "runtime": "electron45-python313-win-x64",
   "notes": [
-    "Barra de progresso logo abaixo de Aplicar filtros, com percentual das três etapas da consulta.",
-    "Indicador animado e tempo decorrido enquanto a base local é consultada, sem simular empresas analisadas.",
-    "Conclusão com quantidade por página, resultado vazio e falha identificados; novas consultas e bloqueio descartam indicadores antigos."
+    "Grupos de municípios salvos por conta e pasta, para carregar os mesmos municípios nas próximas pesquisas.",
+    "Selecionar todo o resultado inclui todas as páginas, sem transferir milhares de CNPJs à interface; exportação com o mesmo aviso de duplicidade.",
+    "Resultados e marcações salvos no disco para reabrir sem reexecutar os filtros originais, com refinamento por município e atividade no cabeçalho.",
+    "Tabela com rolagem própria, barra visível e cabeçalhos fixos; listas de municípios selecionados com altura limitada."
   ],
-  "manifest_sha256": "be99c640a0fd6b4b939ba675968f9a45d6889031167ced5b977e4815e5c32d53",
+  "manifest_sha256": "c2cc5d476929aea09f7b81d13a6d1eac38a5973b0c3458c204d111cbeb6b5802",
   "payload": {
     "name": "cnpj-explorer-update.zip",
-    "size": 90525,
-    "sha256": "2f007f1b8ef7ed4644ff621347db547a85ae22d096733ca529f6dd441deab840"
+    "size": 97001,
+    "sha256": "d000e6cf616e20782a5fef0d59f0faf9b9d095b156fcf524b0ef7f6b9f1390ae"
   }
 }
