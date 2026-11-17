@@ -1,19 +1,19 @@
 {
   "schema": 1,
-  "version": "1.2.20",
+  "version": "1.2.21",
   "minimum_bootstrap": "1.2.0",
   "data_format": "sqlite-v1-accounts-v2",
   "runtime": "electron45-python313-win-x64",
   "notes": [
-    "Adiciona Nova importação com a apresentação da web, seleção de anos e meses publicados e manifesto por competência.",
-    "Permite marcar ZIPs e baixá-los individualmente, por grupo, por mês ou em fila cronológica, sempre em pastas locais separadas.",
-    "Valida todos os destinos e o espaço livre antes de iniciar a fila; protege arquivos existentes e preserva ZIPs concluídos ao interromper.",
-    "Permite usar cada pasta baixada no processamento local existente, sem iniciar importações automaticamente."
+    "Antes de exportar resultados ou empresas marcadas, permite escolher somente as colunas desejadas e conferir o resumo.",
+    "Acrescenta classificação alfabética por cidade, bairro e razão social, mesmo sem incluir esses campos na planilha.",
+    "Lembra opcionalmente as colunas e a ordenação por usuário local, sem alterar bases, filtros ou resultados salvos.",
+    "Mantém XLSX e CSV, sócios como coluna JSON, avisos de duplicidade, progresso real e interrupção segura, incluindo a etapa de ordenação."
   ],
-  "manifest_sha256": "c4a2fe3d604ae95b641ed2163315f33d9842467eb64347513b6d4bed9df2b503",
+  "manifest_sha256": "3885d9ea5daef136a2b06f645f60d0763cc4e5568243adca8156b7517b565b2f",
   "payload": {
     "name": "cnpj-explorer-update.zip",
-    "size": 149906,
-    "sha256": "0013659cdc2bac8530af4f4f2805dc8804b1dea043c7296b390fbd4c0ce4ba0b"
+    "size": 157012,
+    "sha256": "7237befac45c517cb971c6f7f81771a3d239aefc537d383274dca2d3ff300d48"
   }
 }
