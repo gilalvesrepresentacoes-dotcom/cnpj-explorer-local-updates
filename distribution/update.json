@@ -10,10 +10,10 @@
     "Lembra opcionalmente as colunas e a ordenação por usuário local, sem alterar bases, filtros ou resultados salvos.",
     "Mantém XLSX e CSV, sócios como coluna JSON, avisos de duplicidade, progresso real e interrupção segura, incluindo a etapa de ordenação."
   ],
-  "manifest_sha256": "3885d9ea5daef136a2b06f645f60d0763cc4e5568243adca8156b7517b565b2f",
+  "manifest_sha256": "251ec9876bf0e17ee7220598a81726f09785758bd35f4d5ffa45c3e83020f118",
   "payload": {
     "name": "cnpj-explorer-update.zip",
-    "size": 157012,
-    "sha256": "7237befac45c517cb971c6f7f81771a3d239aefc537d383274dca2d3ff300d48"
+    "size": 157065,
+    "sha256": "bd348dc5d8bdd6a7938c34bc655ea12cb80f801273ed0f444ec9020d083ae2b6"
   }
 }
