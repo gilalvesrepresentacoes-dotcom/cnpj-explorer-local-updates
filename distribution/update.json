@@ -1,18 +1,18 @@
 {
   "schema": 1,
-  "version": "1.2.12",
+  "version": "1.2.13",
   "minimum_bootstrap": "1.2.0",
   "data_format": "sqlite-v1-accounts-v2",
   "runtime": "electron45-python313-win-x64",
   "notes": [
-    "Explica perdas de conexão em português e oferece Verificar conexão sem repetir a exportação.",
-    "Preserva filtros e marcações, alerta quando o pedido pode ter sido recebido e orienta conferir o Histórico.",
-    "Corrige o carregamento da barra de exportação no servidor local e identifica percentuais desatualizados durante falhas de conexão."
+    "Corrige a falha de interface Cannot read properties of undefined (reading render) ao exibir progresso.",
+    "Mantém bases e controles disponíveis mesmo quando um indicador não carregou, com orientação clara de atualização.",
+    "Inclui os componentes de progresso e distingue falhas de interface de perda de conexão com o serviço local."
   ],
-  "manifest_sha256": "3628e8ef4e6079afab24ebc9aadf0f552f19f41f1513d0c86253252c08e18525",
+  "manifest_sha256": "8c232bef5cd80b6f21015984386a1682228f7bd62c895c8431f63fff3612696a",
   "payload": {
     "name": "cnpj-explorer-update.zip",
-    "size": 103751,
-    "sha256": "f5a8dcee9c7a976d3b7656b0f106503fc76f591798197b291b57fcc61484ab50"
+    "size": 104035,
+    "sha256": "2425db41c661557bb06953df873630d97d7a7a7ad63fade7e0bbf3ca56a9cac8"
   }
 }
