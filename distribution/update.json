@@ -1,18 +1,18 @@
 {
   "schema": 1,
-  "version": "1.2.11",
+  "version": "1.2.12",
   "minimum_bootstrap": "1.2.0",
   "data_format": "sqlite-v1-accounts-v2",
   "runtime": "electron45-python313-win-x64",
   "notes": [
-    "Mostra barra e percentual da exportação, com empresas gravadas e total a exportar.",
-    "Distingue a gravação dos registros da finalização: 100% somente após salvar e registrar o arquivo.",
-    "Desabilita novos pedidos durante tarefas em andamento e informa falhas na área de exportação."
+    "Explica perdas de conexão em português e oferece Verificar conexão sem repetir a exportação.",
+    "Preserva filtros e marcações, alerta quando o pedido pode ter sido recebido e orienta conferir o Histórico.",
+    "Corrige o carregamento da barra de exportação no servidor local e identifica percentuais desatualizados durante falhas de conexão."
   ],
-  "manifest_sha256": "951d4bb7521558a800d3473c60fbee4f71fb2c8704618bb7e0fb46d418d49218",
+  "manifest_sha256": "3628e8ef4e6079afab24ebc9aadf0f552f19f41f1513d0c86253252c08e18525",
   "payload": {
     "name": "cnpj-explorer-update.zip",
-    "size": 102686,
-    "sha256": "910ce4dacb9c7d87471af7bfedd0cc5fa3e3d975d006331a6d24fb6ed0f92422"
+    "size": 103751,
+    "sha256": "f5a8dcee9c7a976d3b7656b0f106503fc76f591798197b291b57fcc61484ab50"
   }
 }
