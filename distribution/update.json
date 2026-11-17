@@ -11,10 +11,10 @@
     "Inclui Ajuda e fonte e organiza os recursos existentes em Acessos autorizados e Senha e segurança, sem trocar o sistema de contas.",
     "Preserva filtros, consultas salvas, downloads, retomada das importações, exportações Excel e atualização pelo próprio programa."
   ],
-  "manifest_sha256": "83a63a363dabda637713bdd6580295df870834f2bdc92810e65217e4322e398f",
+  "manifest_sha256": "7260d2fbeb432b52bc0162bbea3d914e23ca93d338cf9366872f2f71b0c48f49",
   "payload": {
     "name": "cnpj-explorer-update.zip",
-    "size": 136824,
-    "sha256": "0700878ce13a02ee07a9312582b11d9db0897c1043edc96bc5f08f1287f80db2"
+    "size": 136914,
+    "sha256": "ca4f19f006f54333e15f111fba604ab42bd5ccdd3290544e820783ca46670f73"
   }
 }
