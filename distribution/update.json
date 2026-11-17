@@ -1,18 +1,19 @@
 {
   "schema": 1,
-  "version": "1.2.19",
+  "version": "1.2.20",
   "minimum_bootstrap": "1.2.0",
   "data_format": "sqlite-v1-accounts-v2",
   "runtime": "electron45-python313-win-x64",
   "notes": [
-    "Corrige as cores remanescentes da área de Importações para usar a paleta da versão web.",
-    "Troca o verde antigo do registro pelo azul-claro da web e uniformiza botões, bordas, alertas, marcadores e fundos.",
-    "Retira o fundo branco externo de Importações e preserva as cores de status e todas as funções locais."
+    "Adiciona Nova importação com a apresentação da web, seleção de anos e meses publicados e manifesto por competência.",
+    "Permite marcar ZIPs e baixá-los individualmente, por grupo, por mês ou em fila cronológica, sempre em pastas locais separadas.",
+    "Valida todos os destinos e o espaço livre antes de iniciar a fila; protege arquivos existentes e preserva ZIPs concluídos ao interromper.",
+    "Permite usar cada pasta baixada no processamento local existente, sem iniciar importações automaticamente."
   ],
-  "manifest_sha256": "a0c3f0a16eee63ce906bb34eff98e3b7eea43a9b9e05811dddca3a46d4b75005",
+  "manifest_sha256": "c4a2fe3d604ae95b641ed2163315f33d9842467eb64347513b6d4bed9df2b503",
   "payload": {
     "name": "cnpj-explorer-update.zip",
-    "size": 137178,
-    "sha256": "31eeccdf7c08c07c66fc4ae50643d7064915620a362cc887b31de7212c064754"
+    "size": 149906,
+    "sha256": "0013659cdc2bac8530af4f4f2805dc8804b1dea043c7296b390fbd4c0ce4ba0b"
   }
 }
