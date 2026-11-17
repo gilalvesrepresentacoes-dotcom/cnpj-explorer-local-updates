@@ -1,18 +1,18 @@
 {
   "schema": 1,
-  "version": "1.2.15",
+  "version": "1.2.16",
   "minimum_bootstrap": "1.2.0",
   "data_format": "sqlite-v1-accounts-v2",
   "runtime": "electron45-python313-win-x64",
   "notes": [
-    "Acelera exportações com sócios: consulta os dados por lotes de até 500 empresas, em vez de uma consulta por empresa.",
-    "Grava o controle de empresas exportadas em lotes, preservando histórico, filtros e alertas de duplicidade.",
-    "Mantém todos os campos, a ordem dos sócios, a gravação segura e o percentual de progresso; o ganho depende da base e do disco."
+    "Interrompe consultas longas da exportação e verifica o pedido de parada durante a gravação dos registros.",
+    "Mostra Interrompendo até encerrar e remover o arquivo parcial; explica que a exportação precisa ser iniciada novamente.",
+    "Mantém a proteção da atualização enquanto houver tarefa ativa e protege a confirmação final do arquivo no disco."
   ],
-  "manifest_sha256": "c5f1090cfc5d72317278e1baaa728b633955754476bfdb9c8ff956e986909197",
+  "manifest_sha256": "877548738868631882616a893284dfa01fe21569502e4552b446129e3e902303",
   "payload": {
     "name": "cnpj-explorer-update.zip",
-    "size": 104449,
-    "sha256": "4b16a17297c6bc0973f1562202b1a7470f08bb6217d9b6991464862ac74ce025"
+    "size": 105570,
+    "sha256": "4b96b1227203ec8995de60e2de89b93d307ee294bc61e4e275304e5579cb4dff"
   }
 }
