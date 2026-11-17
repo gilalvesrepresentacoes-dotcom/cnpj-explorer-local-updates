@@ -1,18 +1,19 @@
 {
-  "schema": 1,
-  "version": "1.2.16",
-  "minimum_bootstrap": "1.2.0",
   "data_format": "sqlite-v1-accounts-v2",
-  "runtime": "electron45-python313-win-x64",
+  "manifest_sha256": "fee49c16c68c7a7369d42515f96f620476f3161dd17ce1c7a49b2f64404463db",
+  "minimum_bootstrap": "1.2.0",
   "notes": [
-    "Interrompe consultas longas da exportação e verifica o pedido de parada durante a gravação dos registros.",
-    "Mostra Interrompendo até encerrar e remover o arquivo parcial; explica que a exportação precisa ser iniciada novamente.",
-    "Mantém a proteção da atualização enquanto houver tarefa ativa e protege a confirmação final do arquivo no disco."
+    "Adiciona Importações com a interface da versão web: lista de competências, detalhes, progresso real, ponto salvo e registro de etapas.",
+    "Permite consultar a Receita e selecionar ZIPs individuais, por grupo ou todos os arquivos da competência para baixar diretamente no computador.",
+    "Organiza os downloads em subpastas por competência, protege arquivos existentes e permite usar a pasta no processamento local.",
+    "Preserva pausar, retomar, cancelar e pesquisar; bloqueia atualizações enquanto houver download em andamento."
   ],
-  "manifest_sha256": "877548738868631882616a893284dfa01fe21569502e4552b446129e3e902303",
   "payload": {
     "name": "cnpj-explorer-update.zip",
-    "size": 105570,
-    "sha256": "4b96b1227203ec8995de60e2de89b93d307ee294bc61e4e275304e5579cb4dff"
-  }
+    "sha256": "7fa15613ec914078c1c0ade5147bafe205dec53ea2b6d0c800654563542f7551",
+    "size": 120223
+  },
+  "runtime": "electron45-python313-win-x64",
+  "schema": 1,
+  "version": "1.2.17"
 }
