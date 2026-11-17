@@ -1,18 +1,18 @@
 {
   "schema": 1,
-  "version": "1.2.14",
+  "version": "1.2.15",
   "minimum_bootstrap": "1.2.0",
   "data_format": "sqlite-v1-accounts-v2",
   "runtime": "electron45-python313-win-x64",
   "notes": [
-    "Corrige [Errno 9] Bad file descriptor na finalização de arquivos Excel no Windows.",
-    "Preserva a sincronização real com o disco e só confirma a planilha após salvar e registrar no histórico.",
-    "Mantém a base e os filtros; exportações que falharam precisam ser solicitadas novamente após atualizar."
+    "Acelera exportações com sócios: consulta os dados por lotes de até 500 empresas, em vez de uma consulta por empresa.",
+    "Grava o controle de empresas exportadas em lotes, preservando histórico, filtros e alertas de duplicidade.",
+    "Mantém todos os campos, a ordem dos sócios, a gravação segura e o percentual de progresso; o ganho depende da base e do disco."
   ],
-  "manifest_sha256": "8151f96c2643d69423c4807f342de9249e8fa20cf8f4a4fdd70cd3d936bee7f0",
+  "manifest_sha256": "c5f1090cfc5d72317278e1baaa728b633955754476bfdb9c8ff956e986909197",
   "payload": {
     "name": "cnpj-explorer-update.zip",
-    "size": 104131,
-    "sha256": "692d0a0f79eb9aa034fd5409bc60bf2401ef8c922286c87855a4ac47dae66107"
+    "size": 104449,
+    "sha256": "4b16a17297c6bc0973f1562202b1a7470f08bb6217d9b6991464862ac74ce025"
   }
 }
