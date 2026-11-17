@@ -1,19 +1,18 @@
 {
   "schema": 1,
-  "version": "1.2.22",
+  "version": "1.2.23",
   "minimum_bootstrap": "1.2.0",
   "data_format": "sqlite-v1-accounts-v2",
   "runtime": "electron45-python313-win-x64",
   "notes": [
-    "Corrige a lista de colunas que ficava estreita quando muitas opções estavam marcadas.",
-    "Mantém uma área de seleção com altura mínima e rolagem própria, com linhas maiores para marcar as colunas.",
-    "Preserva os botões de confirmação visíveis e permite rolar o restante da janela sem comprimir a seleção.",
-    "Não altera dados, colunas lembradas, ordenação nem a geração das planilhas."
+    "Coloca a caixa de seleção abaixo do nome de cada campo na escolha de colunas para a planilha.",
+    "Mantém a lista ampliada, com rolagem própria e botões de confirmação visíveis.",
+    "Permite marcar ou desmarcar clicando no nome ou na caixa, preservando as colunas e a ordenação já lembradas."
   ],
-  "manifest_sha256": "0d67d9f1a40309815e7f394f411391547e4f2c2c6defeda4dd965c993e4b751d",
+  "manifest_sha256": "3c6b44ed3734dd7fe38650e2a7f622b39a168594974b282ac07bf7b0e7050c64",
   "payload": {
     "name": "cnpj-explorer-update.zip",
-    "size": 157200,
-    "sha256": "43bbe6242f237a7e77713c8a3f0a14ee460d7abb25d348647b32cd6eaa93e649"
+    "size": 157214,
+    "sha256": "8b4c2ad116260d48bafe1e2d074751738a222b9c2f432cc0a781e6ebd03b1fe2"
   }
 }
