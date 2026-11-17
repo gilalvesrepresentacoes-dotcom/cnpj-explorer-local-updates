@@ -1,19 +1,20 @@
 {
-  "data_format": "sqlite-v1-accounts-v2",
-  "manifest_sha256": "fee49c16c68c7a7369d42515f96f620476f3161dd17ce1c7a49b2f64404463db",
+  "schema": 1,
+  "version": "1.2.18",
   "minimum_bootstrap": "1.2.0",
+  "data_format": "sqlite-v1-accounts-v2",
+  "runtime": "electron45-python313-win-x64",
   "notes": [
-    "Adiciona Importações com a interface da versão web: lista de competências, detalhes, progresso real, ponto salvo e registro de etapas.",
-    "Permite consultar a Receita e selecionar ZIPs individuais, por grupo ou todos os arquivos da competência para baixar diretamente no computador.",
-    "Organiza os downloads em subpastas por competência, protege arquivos existentes e permite usar a pasta no processamento local.",
-    "Preserva pausar, retomar, cancelar e pesquisar; bloqueia atualizações enquanto houver download em andamento."
+    "Aplica o menu lateral, o layout e as cores da versão web, mantendo as funções e os dados do programa local.",
+    "Adiciona cópia de segurança consistente do banco, verificação de integridade e restauração em uma pasta nova, sem substituir a base atual.",
+    "Oferece cópia diária opcional enquanto o programa estiver aberto e ocioso; permanece desligada por padrão.",
+    "Inclui Ajuda e fonte e organiza os recursos existentes em Acessos autorizados e Senha e segurança, sem trocar o sistema de contas.",
+    "Preserva filtros, consultas salvas, downloads, retomada das importações, exportações Excel e atualização pelo próprio programa."
   ],
+  "manifest_sha256": "83a63a363dabda637713bdd6580295df870834f2bdc92810e65217e4322e398f",
   "payload": {
     "name": "cnpj-explorer-update.zip",
-    "sha256": "7fa15613ec914078c1c0ade5147bafe205dec53ea2b6d0c800654563542f7551",
-    "size": 120223
-  },
-  "runtime": "electron45-python313-win-x64",
-  "schema": 1,
-  "version": "1.2.17"
+    "size": 136824,
+    "sha256": "0700878ce13a02ee07a9312582b11d9db0897c1043edc96bc5f08f1287f80db2"
+  }
 }
