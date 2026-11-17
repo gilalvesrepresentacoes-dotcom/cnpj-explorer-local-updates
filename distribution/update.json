@@ -1,19 +1,19 @@
 {
   "schema": 1,
-  "version": "1.2.21",
+  "version": "1.2.22",
   "minimum_bootstrap": "1.2.0",
   "data_format": "sqlite-v1-accounts-v2",
   "runtime": "electron45-python313-win-x64",
   "notes": [
-    "Antes de exportar resultados ou empresas marcadas, permite escolher somente as colunas desejadas e conferir o resumo.",
-    "Acrescenta classificação alfabética por cidade, bairro e razão social, mesmo sem incluir esses campos na planilha.",
-    "Lembra opcionalmente as colunas e a ordenação por usuário local, sem alterar bases, filtros ou resultados salvos.",
-    "Mantém XLSX e CSV, sócios como coluna JSON, avisos de duplicidade, progresso real e interrupção segura, incluindo a etapa de ordenação."
+    "Corrige a lista de colunas que ficava estreita quando muitas opções estavam marcadas.",
+    "Mantém uma área de seleção com altura mínima e rolagem própria, com linhas maiores para marcar as colunas.",
+    "Preserva os botões de confirmação visíveis e permite rolar o restante da janela sem comprimir a seleção.",
+    "Não altera dados, colunas lembradas, ordenação nem a geração das planilhas."
   ],
-  "manifest_sha256": "251ec9876bf0e17ee7220598a81726f09785758bd35f4d5ffa45c3e83020f118",
+  "manifest_sha256": "0d67d9f1a40309815e7f394f411391547e4f2c2c6defeda4dd965c993e4b751d",
   "payload": {
     "name": "cnpj-explorer-update.zip",
-    "size": 157065,
-    "sha256": "bd348dc5d8bdd6a7938c34bc655ea12cb80f801273ed0f444ec9020d083ae2b6"
+    "size": 157200,
+    "sha256": "43bbe6242f237a7e77713c8a3f0a14ee460d7abb25d348647b32cd6eaa93e649"
   }
 }
