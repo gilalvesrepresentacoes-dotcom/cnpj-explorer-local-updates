@@ -1,20 +1,18 @@
 {
   "schema": 1,
-  "version": "1.2.18",
+  "version": "1.2.19",
   "minimum_bootstrap": "1.2.0",
   "data_format": "sqlite-v1-accounts-v2",
   "runtime": "electron45-python313-win-x64",
   "notes": [
-    "Aplica o menu lateral, o layout e as cores da versão web, mantendo as funções e os dados do programa local.",
-    "Adiciona cópia de segurança consistente do banco, verificação de integridade e restauração em uma pasta nova, sem substituir a base atual.",
-    "Oferece cópia diária opcional enquanto o programa estiver aberto e ocioso; permanece desligada por padrão.",
-    "Inclui Ajuda e fonte e organiza os recursos existentes em Acessos autorizados e Senha e segurança, sem trocar o sistema de contas.",
-    "Preserva filtros, consultas salvas, downloads, retomada das importações, exportações Excel e atualização pelo próprio programa."
+    "Corrige as cores remanescentes da área de Importações para usar a paleta da versão web.",
+    "Troca o verde antigo do registro pelo azul-claro da web e uniformiza botões, bordas, alertas, marcadores e fundos.",
+    "Retira o fundo branco externo de Importações e preserva as cores de status e todas as funções locais."
   ],
-  "manifest_sha256": "7260d2fbeb432b52bc0162bbea3d914e23ca93d338cf9366872f2f71b0c48f49",
+  "manifest_sha256": "a0c3f0a16eee63ce906bb34eff98e3b7eea43a9b9e05811dddca3a46d4b75005",
   "payload": {
     "name": "cnpj-explorer-update.zip",
-    "size": 136914,
-    "sha256": "ca4f19f006f54333e15f111fba604ab42bd5ccdd3290544e820783ca46670f73"
+    "size": 137178,
+    "sha256": "31eeccdf7c08c07c66fc4ae50643d7064915620a362cc887b31de7212c064754"
   }
 }
